@@ -13,13 +13,12 @@ import java.io.PrintWriter;
  * @author n2god on 04/12/2019
  * @project config
  */
-@WebServlet(name = "WelcomeServlet",
+/*@WebServlet(name = "WelcomeServlet",
 		urlPatterns = "/WelcomeServlet",
 		initParams = {
 		@WebInitParam(name = "defaultUsername", value = "Nieznajomy"),
 		@WebInitParam(name = "defaultPassword", value = "admin"),
-
-		})
+		})*/
 public class WelcomeServlet extends HttpServlet {
 
 	@Override
